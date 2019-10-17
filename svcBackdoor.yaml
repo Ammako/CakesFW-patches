@@ -9,6 +9,10 @@ patches:
 
         versions:
             o3ds:
+                0x64:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
                 0x5E:
                     offset: 0x1FF82514
                     variables:
@@ -48,6 +52,7 @@ patches:
         type: NATIVE_FIRM
         versions:
             o3ds:
+                0x64: 0x1FFADB28
                 0x5E: 0x1FFADB28
                 0x5C: 0x1FFADB28
                 0x56: 0x1FFADB28
