@@ -31,6 +31,10 @@ patches:
                         - 0xFFFF0B28
 
             n3ds:
+                0x35:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
                 0x2F:
                     offset: 0x1FF824F8
                     variables:
@@ -59,6 +63,7 @@ patches:
                 0x52: 0x1FFADB28
 
             n3ds:
+                0x35: 0x1FFAEC68
                 0x2F: 0x1FFAEC68
                 0x2D: 0x1FFAEC68
                 0x21: 0x1FFAEC68
