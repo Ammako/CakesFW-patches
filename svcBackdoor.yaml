@@ -9,6 +9,10 @@ patches:
 
         versions:
             o3ds:
+                0x6C:
+                    offset: 0x1FF82514
+                    variables:
+                        - 0xFFFF0B28
                 0x69:
                     offset: 0x1FF82514
                     variables:
@@ -39,6 +43,10 @@ patches:
                         - 0xFFFF0B28
 
             n3ds:
+                0x3D:
+                    offset: 0x1FF824F8
+                    variables:
+                        - 0xFFFF0C68
                 0x3A:
                     offset: 0x1FF824F8
                     variables:
@@ -72,6 +80,7 @@ patches:
         type: NATIVE_FIRM
         versions:
             o3ds:
+                0x6C: 0x1FFADB28
                 0x69: 0x1FFADB28
                 0x66: 0x1FFADB28
                 0x64: 0x1FFADB28
@@ -81,6 +90,7 @@ patches:
                 0x52: 0x1FFADB28
 
             n3ds:
+                0x3D: 0x1FFAEC68
                 0x3A: 0x1FFAEC68
                 0x37: 0x1FFAEC68
                 0x35: 0x1FFAEC68
